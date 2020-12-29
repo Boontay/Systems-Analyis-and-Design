@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="com.online.store.controllers.JavaFxController">
+    <Button fx:id="loadViewCart" text="Load Cart Items" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#handleLoadViewCartButton"/>
+    <Button fx:id="checkoutButton" text="Checkout" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#handleCheckoutButton"/>
+
+    <TextArea fx:id="listOfItemsViewCartTextArea" editable="false" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="1" GridPane.rowSpan="1"/>
+</GridPane>

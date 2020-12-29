@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="com.online.store.controllers.JavaFxController">
+
+    <Button fx:id="firstCategoryButton" text="First Category" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#handleFirstCategoryButtonAction"/>
+    <Button fx:id="secondCategoryButton" text="Second Category" GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#handleSecondCategoryButtonAction"/>
+    <Button fx:id="thirdCategoryButton" text="Third Category" GridPane.columnIndex="0" GridPane.rowIndex="3" onAction="#handleThirdCategoryButtonAction"/>
+    <Button fx:id="fourthCategoryButton" text="Fourth Category" GridPane.columnIndex="0" GridPane.rowIndex="4" onAction="#handleFourthCategoryButtonAction"/>
+
+    <TextField fx:id="searchBar" promptText="Item Name" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    <Button fx:id="addToCartButton" text="Add to Cart" GridPane.columnIndex="2" GridPane.rowIndex="0" onAction = "#handleAddToCartButton"/>
+    <Button fx:id="viewCartButton" text="View Cart" GridPane.columnIndex="3" GridPane.rowIndex="0" onAction = "#handleViewCartButton"/>
+
+    <TextArea fx:id="listOfItemsBrowseItemsTextArea" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.columnSpan="6" GridPane.rowSpan="6"/>
+
+</GridPane>

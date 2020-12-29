@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="com.online.store.controllers.JavaFxController">
+    <Text fx:id="deliveryFirstNameText" text = "First Name" GridPane.columnIndex="0" GridPane.rowIndex = "0"/>
+    <Text fx:id="deliveryLastNameText" text = "Last Name" GridPane.columnIndex="0" GridPane.rowIndex = "1"/>
+    <Text fx:id="deliveryAddressText" text = "Address" GridPane.columnIndex="0" GridPane.rowIndex = "2"/>
+
+    <TextField fx:id="deliveryFirstNameTextField" promptText="First Name" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    <TextField fx:id="deliveryLastNameTextField" promptText="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <TextField fx:id="deliveryAddressFirstLineTextField" promptText="Address" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <TextField fx:id="deliveryAddressSecondLineTextField" promptText="Address" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    <TextField fx:id="deliveryAddressThirdLineTextField" promptText="Address" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+    <TextField fx:id="deliveryAddressFourthLineTextField" promptText="Address" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+    <TextField fx:id="deliveryAddressFifthLineTextField" promptText="Address" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+    <Button fx:id="arrangeDeliveryButton" text="Arrange Delivery" GridPane.columnIndex="1" GridPane.rowIndex="7" onAction="#handleDeliveryButtonAction"/>
+</GridPane>

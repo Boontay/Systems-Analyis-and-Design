@@ -1,0 +1,11 @@
+com\online\store\controllers\ProductController.class
+com\online\store\models\Product.class
+com\online\store\services\UserServiceImplementation.class
+com\online\store\services\ProductService.class
+com\online\store\Application.class
+com\online\store\repositories\ProductRepository.class
+com\online\store\repositories\UserRepository.class
+com\online\store\services\UserService.class
+com\online\store\controllers\UserController.class
+com\online\store\services\ProductServiceImplementation.class
+com\online\store\models\User.class
