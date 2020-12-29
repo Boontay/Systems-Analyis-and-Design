@@ -1,5 +1,7 @@
 # Systems-Analysis-and-Design
 
+This was part of a assignment that I completed with other students in my course.
+
 This has been run on IntelliJ.
 
 Create MySQL database "online_store".
